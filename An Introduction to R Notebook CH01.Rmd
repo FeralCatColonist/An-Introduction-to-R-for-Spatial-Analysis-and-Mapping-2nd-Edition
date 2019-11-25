@@ -1,0 +1,30 @@
+---
+title: "An Introduction to R for Spatial Analysis and Mapping CH01"
+output: html_notebook
+---
+Book website:<br>
+- https://study.sagepub.com/brunsdon2e
+
+<br>
+Suggested to follow this guide through Section 5<br>
+https://cran.r-project.org/doc/contrib/Owen-TheRGuide.pdf<br>
+
+Helpful links:<br>
+- https://www.r-bloggers.com/
+- https://stackoverflow.com/questions/tagged/r
+- https://www.reddit.com/r/rstats/
+- https://twitter.com/hashtag/rstats?lang=en
+
+<br>
+Let's go ahead and set the prompt to something that looks nicer.
+
+```{r}
+options(prompt="R> ")
+```
+
+```{r}
+install.packages("tmap", dependencies = T)
+install.packages("GISTools", dependencies = T)
+```
+
+
